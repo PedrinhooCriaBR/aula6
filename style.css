@@ -1,0 +1,39 @@
+table h2 {
+          color:chartreuse;
+          background-color: black;
+          font-size: 3em;
+          
+}
+
+table td{
+          font-size:2em;
+}
+div > p {
+          background-color: aqua;
+}
+p::first-letter{
+          font-size: 3em;
+          color: red;
+}
+div ~ p{ 
+          background-color: greenyellow;
+}
+#ProximoParagrafo + p{         
+}
+img:hover {
+          
+}
+.segunda {
+          display: none;
+}
+.troca:hover .primeira {
+          display: none;
+}
+.troca:hover .segunda {
+          display:block;
+}
+
+.troca{
+          width: 500px;
+          height: 500px;
+}
